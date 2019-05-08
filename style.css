@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans');
+.sharp-border {
+    border-radius: 0 !important;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+nav {
+    background-color: rgb(255, 255, 255) !important;
+    background-image: url(https://raw.githubusercontent.com/utsavm9/rConnect/master/app/assets/images/likelion.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    transition-duration: 300ms;
+}
+
+.navbar-brand:hover {
+    color: blueviolet !important;
+    transition-duration: 300ms;
+}
+
+.navbar-brand:hover>#navbar-R {
+    color: lightsalmon !important;
+    transition-duration: 300ms;
+}
+
+#navbar-R {
+    transition-duration: 300ms;
+}
+
+.form-inline>a>.btn {
+    margin-left: 13px;
+}
+
+@media screen and (min-width: 1000px) {
+    nav {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+main {
+    background-color: #E6F4F8;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.panel {
+    background-color: white;
+    border-top-width: 7px;
+    border-top-color: #69639a;
+    border-top-style: solid;
+    transition: .2s ease-in;
+    padding: 20px;
+}
+
+.panel:hover {
+    transition: .2s ease-in;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.087);
+}
+
+.panel-heading {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: .625rem;
+}
